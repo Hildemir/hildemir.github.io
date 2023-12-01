@@ -1,0 +1,135 @@
+.main-content__order-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content__order-status__title {
+    text-align: center;
+    color: var(--black-color);
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    width: 20rem;
+    height: 4.25rem;
+    margin: 2rem 1.25rem 1.5rem 1.25rem;
+}
+
+.main-content__order-status__description {
+    color: var(--content-text-color);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    width: 20rem;
+}
+
+.main-content__order-status__stepper {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    height: 2.313rem;
+    margin: 1.5rem 0;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 2.313rem;
+}
+
+.step__icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+@mixin not-current-text {
+    color: var(--black-color);
+    font-family: var(--primary-font-family);
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.step__not-current {
+    @include not-current-text;    
+}
+
+.step__current {
+    @include not-current-text;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1500px) {
+    .main-content__order-status {
+        width: 100%;
+    }
+
+    .main-content__order-status__title {
+        width: 39.75rem;
+        height: 2.188rem;
+        font-size: 3rem;
+    }
+
+    .main-content__order-status__description {
+        width: 33.438rem;
+        height: 1.063rem;
+        font-size: 1.5rem;
+    }
+
+    .main-content__order-status__stepper {
+        width: 100%;
+        height: 2.5rem;
+    }
+
+    .step {
+        flex-direction: row;
+        gap: 1.25rem;
+    }
+
+    .step__icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .new-cart-review-text span {
+        display: none;
+    }
+
+    .new-cart-review-text:after {
+        font-size: 1.25rem;
+        content: "Step 1 : Cart Review";
+    }
+
+    .new-checkout-text span {
+        display: none;
+    }
+
+    .new-checkout-text:after {
+        font-size: 1.25rem;
+        content: "Step 2 : Checkout";
+    }
+
+    .new-special-offer-text span {
+        display: none;
+    }
+    
+    .new-special-offer-text:after {
+        font-size: 1.25rem;
+        content: "Step 3 : Special Offer";
+    }
+
+    .new-confirmation-text span {
+        display: none;
+    }
+
+    .new-confirmation-text:after {
+        font-size: 1.25rem;
+        content: "Step 4 : Confirmation";
+    }
+
+}

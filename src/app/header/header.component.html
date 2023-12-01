@@ -1,0 +1,59 @@
+<header id="header" class="header">
+  
+    <div id="header-features" class="header-features">
+  
+      <ul class="features-list">
+        <li class="features-list__item">
+          <img alt="Check icon" src="../assets/fluent_checkmark-starburst-20-regular.svg">
+          <p class="features-list__item__text">30-DAY SATISFACTION GUARANTEE</p>
+        </li>
+        <li class="features-list__item">
+          <img alt="Truck icon" src="../assets/ph_truck-light.svg">
+          <p class="features-list__item__text">Free delivery on orders over $40.00</p>
+        </li>
+        <li class="features-list__item">
+          <img alt="Heart icon" src="../assets/mdi_cards-heart-outline.svg">
+          <p class="features-list__item__text">50.000+ HAPPY CUSTOMERS</p>
+        </li>
+        <li class="features-list__item">
+          <img alt="Refund icon" src="../assets/fluent_arrow-sync-checkmark-20-regular.svg">
+          <p class="features-list__item__text">100% Money Back Guarantee</p>
+        </li> 
+      </ul>
+  
+      <div class="carousel-container carousel-size">
+        <igx-carousel #carousel>
+            <igx-slide *ngFor="let slide of slides" class="igx-slide">
+                <div class="features-list__item">
+                    <img [src]="slide.src" />
+                    <p class="features-list__item__text">{{slide.text}}</p>
+                </div>
+            </igx-slide>
+  
+            <!-- Hide the carousel indicators -->
+            <ng-template igxCarouselIndicator></ng-template>
+            <!-- Customize next and before buutons -->
+            <ng-template igxCarouselNextButton >
+              <button igxButton="icon" class="arrow-icon-button">
+                <img src="../assets/arrow-right.svg" class="arrow-icon-button__image">
+              </button>
+            </ng-template>
+      
+            <ng-template igxCarouselPrevButton >
+              <button igxButton="icon" class="arrow-icon-button">
+                <img src="../assets/arrow-left.svg" class="arrow-icon-button__image">
+              </button>
+            </ng-template>
+        </igx-carousel>
+      </div>
+    </div>
+  
+    <div id="header-logo" class="header-logo">
+      <img src="../assets/Clarifion_Logo.png" class="clarifion-logo">
+  
+      <div class="security-logos">
+        <img src="../assets/McAfee_logo.svg" class="mcafee-logo">
+        <img src="../assets/norton-antivirus-logo.svg" class="norton-logo">
+      </div>
+    </div>
+  </header>

@@ -1,0 +1,453 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.25rem;
+}
+
+
+
+.special-offer-big-picture {
+    width: 20rem;
+    height: 20.5rem;
+    margin: 1.5rem 0;
+}
+
+.special-offer__title {
+    color: var(--black-color);
+    font-family: var(--primary-font-family);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.8rem;
+    width: 20rem;
+    height: 5.313rem;
+    text-align: center;
+}
+
+.emphasis-style {
+    color: var(--primary-color);
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.offer__product__picture {
+    margin-right: 1rem;
+}
+
+.offer__product {
+    display: flex;
+}
+
+.offer__product__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 14rem;
+    height: 3.625rem;
+}
+
+.offer__product__infos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0.625rem 0;
+}
+
+.offer__product__infos__title {
+    color: var(--black-color);
+    font-family: var(--primary-font-family);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.offer__product__infos__prices {
+    display: flex;
+    justify-content: space-between;
+    width: 3.563rem;
+}
+
+.offer__price__old {
+    color: var(--disabled-color);
+    font-family: var(--primary-font-family);
+    font-size: 0.625rem;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+
+.offer__price__new {
+    color: var(--primary-color);
+    font-family: var(--primary-font-family);
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.product-stars {
+    display: flex;
+    width: 4.25rem;
+    justify-content: space-between;
+    margin: 0.625rem 0;
+}
+
+.product-stock {
+    display: flex;
+}
+
+.radio-button {
+    margin-right: 1rem;
+}
+
+.radio-button-label {
+    color: var(--radio-button-label-color);
+    font-family: var(--primary-font-family);
+    font-size: 0.75rem;
+    font-weight: 300;
+    width: auto;
+}
+
+.offer-features {
+    width: 20rem;
+}
+
+.offer-features__description {
+    color: var(--content-text-color);
+    font-family: var(--primary-font-family);
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: center;
+    width: 20.375rem;
+    margin-bottom: 1.5rem;
+}
+
+.offer-features__bullet-point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.check-bullet-point-icon {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.75rem;
+}
+
+.check-bullet-point-text {
+    color: var(--content-text-color);
+    font-family: var(--primary-font-family);
+    font-size: 0.75rem;
+    font-weight: 400;
+    width: 18.25rem;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.offer-discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    width: 20rem;
+    height: 4rem;
+    background-color: var(--secondary-color);
+    border-radius: 0.625rem;
+    margin: 1.5rem 0;
+}
+
+.discount-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.discount-message {
+    color: var(--black-color);
+    font-family: var(--primary-font-family);
+    font-size: 0.875rem;
+    font-weight: 400;
+    width: 15.5rem;
+    line-height: 1.225rem;
+}
+
+.discount-button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--action-button-color);
+    border-radius: 3.125rem;
+    border: none;
+    width: 20rem;
+    height: 3.188rem;
+    padding: 1rem 3.531rem;
+}
+
+.discount-button-text {
+    color: var(--white-color);
+    font-family: var(--primary-font-family);
+    font-size: 0.875rem;
+    font-weight: 700;
+    width: 11.188rem;
+    text-transform: uppercase;
+    margin-right: 1rem;
+}
+
+.arrow-right-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    font-size: 1.25rem;
+}
+
+
+
+.dont-want-offer-link {
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+}
+
+.dont-want-offer-link__style {
+    font-family: var(--primary-font-family);
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    width: 11.188rem;
+    height: 1rem;
+    color: var(--alert-color);
+}
+
+.garantee-area {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    height: 4.813rem;
+    margin: 1.5rem 0 2rem 0;
+} 
+
+.garantee-stamp {
+    width: 3rem;
+    height: 3rem;
+}
+
+.garantee-text {
+    color: var(--content-text-color);
+    font-family: var(--primary-font-family);
+    font-size: 0.75rem;
+    font-weight: 400;
+    width: 16rem;
+    height: 4.813rem;
+    line-height: 1.05rem;
+}
+
+
+
+.main-content__special__offer__desktop {
+    display: none;
+}
+
+.star-icon {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.radio-button {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+@media screen and (min-width: 1500px) {
+    .main-content {
+        padding: 0 8rem;
+    }
+
+    .order-status {
+        width: 100%;
+    }
+
+
+    .main-content__special__offer__mobile {
+        display: none;
+    }
+
+    .main-content__special__offer__desktop {
+        display: flex;
+        width: 100%;
+        height: 54.938rem;
+        background-color: var(--main-content-container-color);
+        border-radius: 0.625rem;
+        padding: 2.5rem;
+        margin: 2.5rem 0 3.813rem 0;
+        gap: 2.5rem;
+    }
+
+    .special-offer-big-picture {
+        width: 35.938rem;
+        height: 36.938rem;
+        margin: 0;
+    }
+
+    .photo-and-comments {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 35.938rem;
+        height: 100%;
+        gap: 1.5rem;
+    }
+
+    
+    .special-offer__title {
+        font-size: 2rem;
+        line-height: 2.39rem;
+        width: 34.375rem;
+        height: 7.063rem;
+        text-align: left;
+    }
+
+    .offer__product__picture {
+        width: 8.375rem;
+        height: 8.375rem;
+    }
+
+    .offer {
+        width: 100%;
+        height: 8.438rem;
+        margin-top: 2rem;
+    }
+
+    .offer__product {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .offer-features {
+        margin: 2rem 0;
+        width: 100%;
+    }
+
+    .check-bullet-point-icon {
+        width: 1.375rem;
+        height: 1.375rem;
+    }
+
+    .check-bullet-point-text {
+        font-size: 1rem;
+        line-height: 1.6rem;
+        width: 100%;
+    }
+
+    .offer-discount {
+        width: 100%;
+        height: auto;
+        justify-content: left;
+        margin: 2rem 0;
+    }
+    
+    .discount-message {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .discount-button {
+        width: 100%;
+        height: 3.688rem;
+        align-items: center;
+    }
+
+    .discount-button-text {
+        font-size: 1.25rem;
+        width: 15.938rem;
+        align-items: center;
+    }
+
+    .offer__product__info  {
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .product-stars{
+        margin: 0;
+    }
+
+    .offer__product__infos__title {
+        font-size: 1.25rem;
+    }
+
+    .offer__price__old {
+        font-size: 1rem;
+    }
+
+    .offer__price__new {
+        font-size: 1.375rem;
+    }
+    
+    .offer__product__infos__prices {
+        width: 5.5rem;
+    }
+
+    .star-icon {
+        width: 1.125rem;
+        height: 1.125rem;
+    }
+
+    .radio-button {
+        width: 0.994rem;
+        height: 0.994rem;
+    }
+
+    .radio-button-label {
+        font-size: 1rem;
+    }
+
+    .offer-features__description {
+        font-size: 1rem;
+        width: 24.875rem;
+        margin: 0;
+    }
+
+    .offer__product__infos {
+        margin: 0;
+    }
+
+    
+    .garantee-stamp {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .garantee-area {
+        width: 34.375rem;
+        margin-top: 2rem;
+    }
+
+    .garantee-text {
+        font-size: 1rem;
+        width: 27.875rem;
+    }
+
+    .dont-want-offer-link {
+        width: 100%;
+    }
+
+    .dont-want-offer-link__style {
+        font-size: 1.125rem;
+        width: 16.813rem;
+    }
+}

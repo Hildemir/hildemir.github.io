@@ -1,0 +1,104 @@
+.shipping-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 4.438rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: 0.063rem solid var(--main-border-color);
+    margin: 0.75rem 0;
+}
+
+.shipping-info__security {
+    display: flex;
+    width: 18.063rem;
+    height: 1.063rem;
+}
+
+.shipping-info__security__text {
+    color: var(--content-text-color);
+    font-family: var(--primary-font-family);
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    width: 4.75rem;
+}
+
+.shipping-info__security__divider {
+    background-color: var(--main-border-color);
+    border: none;
+    margin: 0 0.75rem;
+    width: 0.063rem;
+    height: 0.875rem;
+}
+
+.shipping-info__security__encryption {
+    display: flex;
+    justify-content: space-between;
+    width: 11.813rem;
+}
+
+.lock-icon {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.encryption-text {
+    color: var(--content-text-color);
+    text-align: center;
+    font-family: var(--primary-font-family);
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.shipping-info__divider {
+    background-color: var(--main-border-color);
+    border: none;
+    margin: 0.75rem 0;
+    width: 18.063rem;
+    height: 0.063rem;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: space-between;
+    width: 11.25rem;
+}
+
+.credit-card {
+    width: 1.5rem;
+    height: 0.875rem;
+}
+
+.shipping-info__desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1500px) {
+    .shipping-info__security__text {
+        width: 4.75rem;
+    }
+
+    .shipping-info {
+        width: 33.875rem;
+        height: 2.063rem;
+        margin: 0.75rem 0 1.25rem 0;
+    }
+
+    .shipping-info__security {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    } 
+
+    .shipping-info__mobile {
+        display: none;
+    }
+
+    .shipping-info__desktop {
+        display: flex;
+    }
+}
