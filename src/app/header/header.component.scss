@@ -77,18 +77,9 @@
     padding: 0 1.25rem;
 }
 
-.mat-mdc-icon-button.mat-mdc-button-base {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-}
-
 .clarifion-logo {
-    width: 106.667px;
-    height: 20px;
+    width: 6.667rem;
+    height: 1.25rem;
 }
 
 .security-logos {
@@ -98,13 +89,13 @@
 }
 
 .mcafee-logo {
-    width: 44px;
-    height: 16px;
+    width: 2.75rem;
+    height: 1rem;
 }
 
 .norton-logo {
-    width: 41px;
-    height: 16px;
+    width: 2.563rem;
+    height: 1rem;
 }
 
 @media screen and (min-width: 1500px) {
@@ -120,7 +111,7 @@
         padding: 0 7.938rem;
         height: 6rem;
     }
-    .carousel-container{
+    .carousel-container{ 
         display: none;
     }
 
@@ -137,5 +128,19 @@
     .clarifion-logo {
         width: 12rem;
         height: 2.25rem;
+    }
+
+    .security-logos { 
+        width: 12.625rem;
+    }
+    
+    .mcafee-logo {
+        width: 5.5rem;
+        height: 2rem;
+    }
+    
+    .norton-logo {
+        width: 5.125rem;
+        height: 2rem;
     }
 }

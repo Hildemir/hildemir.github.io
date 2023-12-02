@@ -34,10 +34,16 @@
 }
 
 .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 6.625rem;
 }
 
 .contact-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 10.688rem;
     text-transform: lowercase;
 }
